@@ -1,0 +1,54 @@
+load("rotavirus.Rdata")
+datafilename=rotavirus
+attach(datafilename)
+require(stats4)
+
+betapoisson.dr<-function(alpha,N50,dose) 1-(1+dose*(2^(1/alpha)-1)/N50)^(-alpha)
+
+#**********************************************************
+deviance.bp<-function(obspos,obsneg,logalpha,logN50,dose) {
+	eps=1e-15;
+	alpha=exp(logalpha);
+	N50=exp(logN50);
+	predf=betapoisson.dr(alpha,N50,dose);
+	obsf=obspos/(obspos+obsneg);
+	t1=-sum(obspos*log(predf/(obsf+eps)));
+	t2=-sum(obsneg*log((1-predf+eps)/(1-(obsf-eps))));
+	return(1*(t1+t2))} #NOTE - don't include factor of 2
+	
+
+results2<-mle(deviance.bp, start=list(logalpha=-.2,logN50=9), method = 'BFGS',fixed = list(obspos=positive,obsneg=negative,dose=dose))
+#print(summary(results2))
+j<-coef(results2)
+logalpha=j["logalpha"]
+logN50=j["logN50"]
+#print(logalpha)
+#print(logN50)
+#**********************************************************
+iterations=500
+bootparms<-matrix(nrow=iterations,ncol=3)
+for (iter in 1:iterations) {
+	
+	bootdataframe=datafilename
+	total=bootdataframe$positive+bootdataframe$negative
+	fobs=bootdataframe$positive/total
+	bootpos<-rbinom(0+fobs,total,fobs)	# draw random sample
+	bootdataframe$positive<-bootpos     # replace and form bootstrap sample
+	results_boot<-mle(deviance.bp, start=list(logalpha=-.2,logN50=9), method = 'BFGS',
+    fixed = list(obspos=bootdataframe$positive,obsneg=total-bootdataframe$positive,dose=bootdataframe$dose))
+	L<-logLik(results_boot)
+	L<-2*L[[1]]
+	jb<-coef(results_boot)
+	bootparms[iter,1]<-jb["logalpha"]
+	bootparms[iter,2]<-jb["logN50"]
+	bootparms[iter,3]<-L
+	print(iter)
+}    
+
+#**********************************************************
+plot(exp(bootparms[,2]), exp(bootparms[,1]),log='xy',xlab='N50',ylab='alpha')
+colnames(bootparms)<-c("logalpha","logN50","neg_2_ln_L")
+bootparms<-data.frame(bootparms)
+print(bootparms)
+    
+detach(datafilename)

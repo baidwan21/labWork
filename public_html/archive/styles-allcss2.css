@@ -1,0 +1,273 @@
+div#wrapper {
+	width: 850px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	text-align: left; /* counter the body center */
+	background: #FFF;
+	/*border: solid 1px #0033FF;*/
+}
+.background {
+	text-align: left; /* counter the body center */
+}
+div#nav {
+	width: 850px;
+	text-align: left;
+	background-image: url(images/index_02.gif);
+	/*	background-image: url(images/website_02.gif);*/
+	background-repeat: no-repeat;
+	height:30px;
+	background-color: #bde0b8;
+}
+
+div#banner {
+	width: 850px;
+	height: 94px;
+}
+
+#navstyle {
+	font-size: 0.9em;
+	display: inline;
+	height: 30px;
+	text-align:left;
+	vertical-align: middle;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 830px;
+	display: block;
+	background-color: #bde0b8;
+}
+
+#navstyle #home {
+	display: block;
+	text-align: left;
+	vertical-align: middle;
+	height: 20px;
+	padding-left:20px;
+	padding-right:10px;
+	padding-top: 6px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.2em;
+	font-weight:bold;
+	text-decoration: none;
+	width: 45px;
+	background-color: #bde0b8;
+}
+#navstyle #about {
+	display: block;
+	text-align: left;
+	vertical-align: middle;
+	height: 20px;
+	padding-left:15px;
+	padding-top: 6px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.2em;
+	font-weight:bold;
+	text-decoration: none;
+	width: 75px;
+	background-color: #bde0b8;
+}
+#navstyle #projects {
+	display: block;
+	text-align: left;
+	vertical-align: middle;
+	height: 20px;	
+	padding-left:15px;
+	padding-top: 6px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.2em;
+	font-weight:bold;
+	text-decoration: none;
+	width: 65px;
+	background-color: #bde0b8;
+}
+#navstyle #personnel {
+	display: block;
+	text-align: left;
+	vertical-align: middle;
+	height: 20px;	
+	padding-left:15px;
+	padding-top: 6px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.2em;
+	font-weight:bold;
+	text-decoration: none;
+	width: 75px;
+	background-color: #bde0b8;
+}
+#navstyle #accomplishments {
+	display: block;
+	text-align: left;
+	vertical-align: middle;
+	height: 20px;	
+	padding-left:15px;
+	padding-top: 6px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.2em;
+	font-weight:bold;
+	text-decoration: none;
+	width: 120px;
+	background-color: #bde0b8;
+}
+#navstyle #calendar {
+	display: block;
+	text-align: left;
+	vertical-align: middle;
+	height: 20px;	
+	padding-left:15px;
+	padding-top: 6px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.2em;
+	font-weight:bold;
+	text-decoration: none;
+	width: 65px;
+	background-color: #bde0b8;
+}
+#navstyle #jobs {
+	display: block;
+	text-align: left;
+	vertical-align: middle;
+	height: 20px;
+	padding-left:15px;
+	padding-top: 6px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.2em;
+	font-weight:bold;
+	text-decoration: none;
+	width: 120px;
+	background-color: #bde0b8;
+}
+#navstyle #links {
+	display: block;
+	text-align: left;
+	vertical-align: middle;
+	height: 20px;
+	padding-left:15px;
+	padding-top: 6px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.2em;
+	font-weight:bold;
+	text-decoration: none;
+	width: 50px;
+	background-color: #bde0b8;
+}
+#navstyle #search {
+	display: block;
+	text-align: left;
+	vertical-align: middle;
+	height: 20px;
+	padding-left:15px;
+	padding-top: 6px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.2em;
+	font-weight:bold;
+	text-decoration: none;
+	width: 60px;
+	background-color: #bde0b8;
+}
+#navstyle a {
+	display: block;
+	text-align: left;
+	vertical-align: middle;
+	height: 25px;
+	padding-left:20px;
+	padding-top: 6px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.2em;
+	font-weight:bold;
+	text-decoration: none;
+	width: 150px;
+}
+
+
+#navstyle  a:link, #navstyle  a:visited {
+	float: left;
+	color: #000000;
+	background-image:url(images/bullet.gif);
+	background-repeat:no-repeat;
+	vertical-align: middle;
+	font-weight:bold;
+}
+
+#navstyle  a:hover, #navstyle  a:active {
+	float: left;
+	color:#FFFFFF;
+	background-image:url(images/bullet_over.gif);
+	background-repeat:no-repeat;
+	font-weight:bold;
+}
+div#footer {
+	background-image: url(images/index_04.gif);
+	background-repeat: no-repeat;
+	width: 850px;
+	margin-bottom: 15px;
+	margin-top:10px;
+	clear:both;
+	font-size:70%;
+	border-top: solid 5px #bde0b8;
+}
+.rtt {
+	font-size: 0.75em;
+	font-weight:normal;
+}
+
+div#footercontact {
+	padding-bottom: 15px;
+	padding-top: 5px;
+	padding-right:0px;
+	text-align: left;
+}
+div#contentwrap{
+	width: 850px;
+	float: left;
+}
+div#maincontent {
+	padding: 0px 0px 0px 0px;
+	width: 850px;
+	float: left;
+	font-size:90%;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+h2 {
+	padding-top:0px;
+	margin-top:10px;
+	color:#0072bb;
+	font-weight:bold;
+}
+.subhead {
+	font-size: 110%;
+	font-weight: bold;
+	color: #666666;
+}
+
+
+body {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color:#FFF;
+	color:#000000;
+	text-align: center; /* for IE */
+	font-family: "Times New Roman", Times, serif;
+	font-size: 0.9em;/*	max-width: 742px; */
+}
+
+a:link, a:visited{
+	text-decoration: none;
+	color: #57821f;
+	background-color:transparent ;
+	font-weight: bold;
+}
+a:hover, a:active {
+	text-decoration: underline;
+	color: #57821f;	
+	background-color:transparent ;
+	font-weight: bold;
+}
+
+#smwt-txt {font-size:70%; color:#000000; clear:both;}
+.peoplefield {
+	font-weight: bold;
+	color: #006600;
+}

@@ -1,0 +1,164 @@
+[14-Jan-2015 11:18:00 America/New_York] PHP Warning:  include_once(Mail.php): failed to open stream: No such file or directory in /home/camra/public_html/action_page.php on line 5
+[14-Jan-2015 11:18:00 America/New_York] PHP Warning:  include_once(): Failed opening 'Mail.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/camra/public_html/action_page.php on line 5
+[14-Jan-2015 11:18:00 America/New_York] PHP Warning:  include_once(Mail/mime.php): failed to open stream: No such file or directory in /home/camra/public_html/action_page.php on line 6
+[14-Jan-2015 11:18:00 America/New_York] PHP Warning:  include_once(): Failed opening 'Mail/mime.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/camra/public_html/action_page.php on line 6
+[14-Jan-2015 12:00:35 America/New_York] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/camra/public_html/action_page.php on line 99
+[14-Jan-2015 12:00:40 America/New_York] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/camra/public_html/action_page.php on line 99
+[14-Jan-2015 12:21:04 America/New_York] PHP Parse error:  syntax error, unexpected '$subject' (T_VARIABLE) in /home/camra/public_html/upload.php on line 87
+[14-Jan-2015 12:21:11 America/New_York] PHP Parse error:  syntax error, unexpected '$subject' (T_VARIABLE) in /home/camra/public_html/upload.php on line 87
+[14-Jan-2015 12:24:53 America/New_York] PHP Parse error:  syntax error, unexpected '$Subject' (T_VARIABLE) in /home/camra/public_html/upload.php on line 87
+[14-Jan-2015 12:27:24 America/New_York] PHP Parse error:  syntax error, unexpected '$subject' (T_VARIABLE) in /home/camra/public_html/upload.php on line 87
+[14-Jan-2015 12:29:49 America/New_York] PHP Parse error:  syntax error, unexpected '$sub' (T_VARIABLE) in /home/camra/public_html/upload.php on line 87
+[14-Jan-2015 12:30:29 America/New_York] PHP Parse error:  syntax error, unexpected '$sub' (T_VARIABLE) in /home/camra/public_html/upload.php on line 87
+[14-Jan-2015 12:31:20 America/New_York] PHP Parse error:  syntax error, unexpected '$sub' (T_VARIABLE) in /home/camra/public_html/upload.php on line 89
+[14-Jan-2015 12:32:06 America/New_York] PHP Warning:  include_once(Mail_Mime/mime.php): failed to open stream: No such file or directory in /home/camra/public_html/upload.php on line 5
+[14-Jan-2015 12:32:06 America/New_York] PHP Warning:  include_once(): Failed opening 'Mail_Mime/mime.php' for inclusion (include_path='/home/camra/php:.:/usr/lib/php:/usr/local/lib/php') in /home/camra/public_html/upload.php on line 5
+[14-Jan-2015 12:32:07 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/upload.php on line 100
+[14-Jan-2015 12:32:07 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /home/camra/php/Net/SMTP.php on line 489
+[14-Jan-2015 12:32:07 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /home/camra/php/Net/SMTP.php on line 263
+[14-Jan-2015 12:32:07 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /home/camra/php/Net/SMTP.php on line 492
+[14-Jan-2015 12:32:07 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /home/camra/php/Net/SMTP.php on line 495
+[14-Jan-2015 12:36:19 America/New_York] PHP Warning:  include_once(Mail_Mime/mime.php): failed to open stream: No such file or directory in /home/camra/public_html/upload.php on line 5
+[14-Jan-2015 12:36:19 America/New_York] PHP Warning:  include_once(): Failed opening 'Mail_Mime/mime.php' for inclusion (include_path='/home/camra/php:.:/usr/lib/php:/usr/local/lib/php') in /home/camra/public_html/upload.php on line 5
+[14-Jan-2015 12:36:19 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/upload.php on line 100
+[14-Jan-2015 12:36:19 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /home/camra/php/Net/SMTP.php on line 489
+[14-Jan-2015 12:36:19 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /home/camra/php/Net/SMTP.php on line 263
+[14-Jan-2015 12:36:19 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /home/camra/php/Net/SMTP.php on line 492
+[14-Jan-2015 12:36:19 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /home/camra/php/Net/SMTP.php on line 495
+[14-Jan-2015 12:36:23 America/New_York] PHP Warning:  include_once(Mail_Mime/mime.php): failed to open stream: No such file or directory in /home/camra/public_html/upload.php on line 5
+[14-Jan-2015 12:36:23 America/New_York] PHP Warning:  include_once(): Failed opening 'Mail_Mime/mime.php' for inclusion (include_path='/home/camra/php:.:/usr/lib/php:/usr/local/lib/php') in /home/camra/public_html/upload.php on line 5
+[14-Jan-2015 12:36:23 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/upload.php on line 100
+[14-Jan-2015 12:36:23 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /home/camra/php/Net/SMTP.php on line 489
+[14-Jan-2015 12:36:23 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /home/camra/php/Net/SMTP.php on line 263
+[14-Jan-2015 12:36:23 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /home/camra/php/Net/SMTP.php on line 492
+[14-Jan-2015 12:36:23 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /home/camra/php/Net/SMTP.php on line 495
+[14-Jan-2015 12:42:29 America/New_York] PHP Warning:  include_once(Mail_Mime/mime.php): failed to open stream: No such file or directory in /home/camra/public_html/upload.php on line 5
+[14-Jan-2015 12:42:29 America/New_York] PHP Warning:  include_once(): Failed opening 'Mail_Mime/mime.php' for inclusion (include_path='/home/camra/php:.:/usr/lib/php:/usr/local/lib/php') in /home/camra/public_html/upload.php on line 5
+[14-Jan-2015 12:42:30 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/upload.php on line 100
+[14-Jan-2015 12:42:30 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /home/camra/php/Net/SMTP.php on line 489
+[14-Jan-2015 12:42:30 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /home/camra/php/Net/SMTP.php on line 263
+[14-Jan-2015 12:42:30 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /home/camra/php/Net/SMTP.php on line 492
+[14-Jan-2015 12:42:30 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically, assuming $this from incompatible context in /home/camra/php/Net/SMTP.php on line 495
+[14-Jan-2015 12:46:05 America/New_York] PHP Warning:  include_once(Mail_Mime/mime.php): failed to open stream: No such file or directory in /home/camra/public_html/upload.php on line 5
+[14-Jan-2015 12:46:05 America/New_York] PHP Warning:  include_once(): Failed opening 'Mail_Mime/mime.php' for inclusion (include_path='/home/camra/php:.:/usr/lib/php:/usr/local/lib/php') in /home/camra/public_html/upload.php on line 5
+[14-Jan-2015 12:46:05 America/New_York] PHP Fatal error:  Class 'Mail_mime' not found in /home/camra/public_html/upload.php on line 93
+[14-Jan-2015 12:46:54 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/upload.php on line 99
+[14-Jan-2015 12:46:54 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/upload.php on line 104
+[14-Jan-2015 12:47:02 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/upload.php on line 99
+[14-Jan-2015 12:47:02 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/upload.php on line 104
+[14-Jan-2015 12:47:22 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/upload.php on line 99
+[14-Jan-2015 12:47:23 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/upload.php on line 104
+[14-Jan-2015 12:51:18 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/upload.php on line 99
+[14-Jan-2015 12:51:18 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/upload.php on line 104
+[14-Jan-2015 12:58:03 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/upload.php on line 99
+[14-Jan-2015 12:58:03 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/upload.php on line 104
+[14-Jan-2015 13:00:17 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/upload.php on line 99
+[14-Jan-2015 13:00:17 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/upload.php on line 104
+[14-Jan-2015 13:03:49 America/New_York] PHP Parse error:  syntax error, unexpected '=' in /home/camra/public_html/upload.php on line 108
+[14-Jan-2015 13:06:07 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/upload.php on line 99
+[14-Jan-2015 13:06:07 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/upload.php on line 104
+[14-Jan-2015 13:08:41 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/upload.php on line 99
+[14-Jan-2015 13:08:41 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/upload.php on line 104
+[14-Jan-2015 13:08:41 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/camra/public_html/upload.php:107) in /home/camra/public_html/upload.php on line 108
+[14-Jan-2015 13:09:34 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/upload.php on line 99
+[14-Jan-2015 13:09:34 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/upload.php on line 104
+[14-Jan-2015 13:30:37 America/New_York] PHP Parse error:  syntax error, unexpected ':' in /home/camra/public_html/upload.php on line 28
+[14-Jan-2015 13:31:50 America/New_York] PHP Parse error:  syntax error, unexpected ':' in /home/camra/public_html/upload.php on line 28
+[14-Jan-2015 13:35:49 America/New_York] PHP Parse error:  syntax error, unexpected ':' in /home/camra/public_html/upload.php on line 28
+[14-Jan-2015 13:55:21 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/upload.php on line 99
+[14-Jan-2015 13:55:21 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/upload.php on line 104
+[14-Jan-2015 18:19:44 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/upload.php on line 99
+[14-Jan-2015 18:19:44 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/upload.php on line 104
+[15-Jan-2015 12:53:54 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/upload.php on line 99
+[15-Jan-2015 12:53:54 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/upload.php on line 104
+[15-Jan-2015 13:02:00 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/camra/public_html/upload.php on line 76
+[15-Jan-2015 13:24:28 America/New_York] PHP Warning:  include_once(Mail.php): failed to open stream: No such file or directory in /home/camra/public_html/send-email-form.php on line 4
+[15-Jan-2015 13:24:28 America/New_York] PHP Warning:  include_once(): Failed opening 'Mail.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/camra/public_html/send-email-form.php on line 4
+[15-Jan-2015 13:24:28 America/New_York] PHP Warning:  include_once(Mail_Mime/mime.php): failed to open stream: No such file or directory in /home/camra/public_html/send-email-form.php on line 5
+[15-Jan-2015 13:24:28 America/New_York] PHP Warning:  include_once(): Failed opening 'Mail_Mime/mime.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/camra/public_html/send-email-form.php on line 5
+[15-Jan-2015 13:39:59 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 30
+[15-Jan-2015 13:40:00 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 35
+[16-Jan-2015 10:20:47 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 31
+[16-Jan-2015 10:20:47 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 36
+[16-Jan-2015 10:26:31 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 31
+[16-Jan-2015 10:26:31 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 36
+[16-Jan-2015 10:36:32 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 31
+[16-Jan-2015 10:36:33 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 36
+[16-Jan-2015 11:04:03 America/New_York] PHP Parse error:  syntax error, unexpected '!' in /home/camra/public_html/action_page.php on line 25
+[16-Jan-2015 11:10:08 America/New_York] PHP Warning:  array_keys() expects parameter 1 to be array, string given in /home/camra/public_html/action_page.php on line 55
+[16-Jan-2015 11:10:08 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/camra/public_html/action_page.php on line 55
+[16-Jan-2015 11:10:08 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 65
+[16-Jan-2015 11:10:08 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 70
+[16-Jan-2015 11:12:27 America/New_York] PHP Warning:  array_keys() expects parameter 1 to be array, string given in /home/camra/public_html/action_page.php on line 55
+[16-Jan-2015 11:12:27 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/camra/public_html/action_page.php on line 55
+[16-Jan-2015 11:12:27 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 65
+[16-Jan-2015 11:12:28 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 70
+[16-Jan-2015 11:24:11 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 104
+[16-Jan-2015 11:24:11 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 109
+[16-Jan-2015 11:26:13 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 104
+[16-Jan-2015 11:26:13 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 109
+[16-Jan-2015 11:29:53 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 100
+[16-Jan-2015 11:29:53 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 105
+[16-Jan-2015 11:35:30 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 100
+[16-Jan-2015 11:35:30 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 105
+[16-Jan-2015 11:42:23 America/New_York] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/camra/public_html/action_page.php on line 88
+[16-Jan-2015 11:53:24 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 100
+[16-Jan-2015 11:53:24 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 105
+[16-Jan-2015 11:55:52 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 101
+[16-Jan-2015 11:55:52 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 106
+[16-Jan-2015 11:56:49 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 101
+[16-Jan-2015 11:56:49 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 106
+[16-Jan-2015 12:03:11 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 102
+[16-Jan-2015 12:03:11 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 107
+[16-Jan-2015 12:06:29 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 102
+[16-Jan-2015 12:06:29 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 107
+[16-Jan-2015 12:27:59 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 107
+[16-Jan-2015 12:27:59 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 112
+[16-Jan-2015 12:33:45 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 66
+[16-Jan-2015 12:33:55 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/camra/public_html/action_page.php:48) in /home/camra/public_html/action_page.php on line 70
+[16-Jan-2015 12:33:55 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 72
+[16-Jan-2015 12:37:17 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 66
+[16-Jan-2015 12:37:27 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/camra/public_html/action_page.php:49) in /home/camra/public_html/action_page.php on line 70
+[16-Jan-2015 12:37:27 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 72
+[16-Jan-2015 12:37:54 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 66
+[16-Jan-2015 12:38:04 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/camra/public_html/action_page.php:49) in /home/camra/public_html/action_page.php on line 70
+[16-Jan-2015 12:38:04 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 72
+[16-Jan-2015 12:39:56 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 66
+[16-Jan-2015 12:39:56 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 71
+[16-Jan-2015 12:40:06 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/camra/public_html/action_page.php:49) in /home/camra/public_html/action_page.php on line 76
+[16-Jan-2015 12:44:39 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 66
+[16-Jan-2015 12:44:40 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 71
+[16-Jan-2015 12:45:06 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 66
+[16-Jan-2015 12:45:06 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 71
+[16-Jan-2015 12:45:32 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 66
+[16-Jan-2015 12:45:33 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 71
+[16-Jan-2015 12:46:37 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 66
+[16-Jan-2015 12:46:37 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 71
+[16-Jan-2015 12:48:06 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 66
+[16-Jan-2015 12:48:07 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 71
+[16-Jan-2015 12:49:15 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 66
+[16-Jan-2015 12:49:16 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 71
+[16-Jan-2015 12:58:45 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 73
+[16-Jan-2015 12:58:45 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 76
+[16-Jan-2015 12:59:27 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/camra/public_html/action_page.php:56) in /home/camra/public_html/action_page.php on line 58
+[16-Jan-2015 12:59:27 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 73
+[16-Jan-2015 12:59:29 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 76
+[16-Jan-2015 13:06:13 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/camra/public_html/action_page.php:65) in /home/camra/public_html/action_page.php on line 67
+[16-Jan-2015 13:06:13 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 51
+[16-Jan-2015 13:06:13 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 54
+[16-Jan-2015 13:11:11 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/camra/public_html/action_page.php:65) in /home/camra/public_html/action_page.php on line 67
+[16-Jan-2015 13:17:34 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 51
+[16-Jan-2015 13:17:34 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 54
+[16-Jan-2015 13:17:39 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 51
+[16-Jan-2015 13:17:39 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 54
+[16-Jan-2015 13:20:49 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 51
+[16-Jan-2015 13:21:33 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 51
+[16-Jan-2015 13:21:33 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 51
+[16-Jan-2015 13:34:46 America/New_York] PHP Fatal error:  Call to a member function addAttachment() on a non-object in /home/camra/public_html/action_page.php on line 52
+[16-Jan-2015 13:36:19 America/New_York] PHP Fatal error:  Call to a member function addAttachment() on a non-object in /home/camra/public_html/action_page.php on line 53
+[16-Jan-2015 13:38:01 America/New_York] PHP Fatal error:  Call to a member function addAttachment() on a non-object in /home/camra/public_html/action_page.php on line 53
+[16-Jan-2015 13:39:01 America/New_York] PHP Fatal error:  Call to a member function addAttachment() on a non-object in /home/camra/public_html/action_page.php on line 53
+[16-Jan-2015 13:41:31 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 83
+[16-Jan-2015 13:41:31 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 86
+[16-Jan-2015 13:42:25 America/New_York] PHP Strict Standards:  Non-static method Mail::factory() should not be called statically in /home/camra/public_html/action_page.php on line 83
+[16-Jan-2015 13:42:25 America/New_York] PHP Strict Standards:  Non-static method PEAR::isError() should not be called statically in /home/camra/public_html/action_page.php on line 86
